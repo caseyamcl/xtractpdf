@@ -1,17 +1,33 @@
 #
 # XtractPDF Configuration
-#
+# =========================================
 
-#Uploads path (relative to application basepath, or with a preceding slash)
+#
+# Uploads path
+#
+# Relative to application basepath,
+# or with a full path with preceding slash
+#
 uploads: uploads
 
-#Deploy Mode [private, demo]
+#
+# Deploy Mode [private, demo]
+#
+# If 'demo', data is not saved after current sesion ends
+#
 deploymode: private
 
-#Logpath Destination
+#
+# Logpath Destination
+#
+# Relative to application basepath,
+# or with a full path with preceding slash
+#
 logpath: logs
 
+#
 # Mongo Database Settings
-mongodb: 
+#
+mongodb:
     connstring: mongodb://localhost:27017
     dbname:     xtractpdf
